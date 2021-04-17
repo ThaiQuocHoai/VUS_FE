@@ -1,0 +1,191 @@
+.header{
+    background-color: white;
+    height: 80px;
+    float: left;
+    box-sizing: border-box;;
+    width: 100%;
+}
+.header .header-image{
+    width: 50%;
+    display: inline;
+}
+
+.header .header-text{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 0 100px;
+}
+
+.nav{
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    height: 55px;
+    border-left: none;
+    border-right: none;
+}
+
+.nav ul{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    /* display: flex; */
+    text-align: center;
+    padding: 0;
+}
+
+.nav ul li{
+    /* width: 8%; */
+    list-style: none;
+    padding: 0 5px;
+    width: 10%;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.nav ul li a{
+    text-transform: uppercase;
+    color: rgb(82, 77, 77);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    width: 100%;
+}
+
+.carosell{
+    margin: 20px 0 60px 0;
+}
+
+.carosell img{
+    width: 100%;
+}
+
+.clear-both{
+    clear: both;
+}
+.introduce{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.introduce p{
+    color:gray;
+}
+
+.introduce h1{
+    text-transform: uppercase;
+}
+
+.course{
+    text-align: center;
+}
+
+.course h1{
+    text-transform: uppercase;
+}
+
+.course .course-list{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.course .course-list .course-detail{
+    width: 25%;
+    padding: 0 10px;
+    text-align: left;
+    box-sizing: border-box;
+    float: left;
+}
+
+.course .course-list .course-detail h4{
+    text-transform: uppercase;
+    color: brown;
+    margin-bottom: 0;
+}
+
+.course .course-list .course-detail p{
+    margin: 0;
+    color: gray;
+}
+
+.course .course-list .course-detail img{
+    width: 100%;
+}
+
+.event{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.event h1{
+    text-transform: uppercase;
+}
+
+.event .event-list .big-img{
+    width: 50%;
+    border-bottom: 4px solid brown;
+    float: left;
+    box-sizing: border-box;
+}
+.event .event-list .big-img img {
+    width: 100%;
+}
+
+.event .event-list{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.event .event-list .small-img{
+    width: 50%;
+    height: 490px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.event .event-list .small-img .detail-img{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height: 250px;
+    padding: 0 10px;
+    margin-bottom: 6px;
+
+}
+.event .event-list .small-img .detail-img img{
+    width: 100%;
+    padding-bottom: 2px;
+    border-bottom: 4px solid brown;
+    height: 235px;
+}
+
+.footer{
+    height: 150px;
+    background-color: brown;
+    margin-top: 60px;
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.footer .footer-logo{
+    padding: 30px 45px;
+    width: 50%;
+}
+
+.footer .footer-text{
+    width: 50%;
+    color: white;
+    padding: 35px 50px;
+    
+}
+
+.footer .footer-text #h3{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.footer .footer-text p{
+    display: inline;
+}
